@@ -234,6 +234,7 @@ article:hover{
     line-height: 12px;
     text-transform: uppercase;
     display: block;
+    text-decoration: none;
 }
 
 .side-news-content{
