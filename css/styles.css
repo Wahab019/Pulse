@@ -411,8 +411,17 @@ footer{
 
 .improve{
     font-size: 19px !important;
-    font-weight: 600 !important;
+    font-weight: 500 !important;
     color: #ffeb3b !important;
+}
+
+.sportal{
+    cursor: pointer;
+    display: inline-block;
+    height: 55px;
+    text-decoration: none;
+    width: 250px;
+    margin-top: 16px;
 }
 
 
