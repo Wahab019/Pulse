@@ -322,6 +322,13 @@ footer{
     background-color: unset !important;
 }
 
+.align-footer p{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 0;
+}
+
 .pulse-logo a{
     text-decoration: none;
 }
@@ -373,6 +380,40 @@ footer{
     margin-top: -7px;
 }
 
+.footer-text{
+    margin-top: 20px;
+}
+
+.footer-text-links{
+    font-weight: 700;
+}
+
+.footer-text-links a{
+    color: #fff !important;
+    font-weight: 300;
+    display: inline-block;
+    padding: 5px 5px 10px;
+    text-decoration: none;
+}
+
+.footer-text-links a::after{
+    color: #fff;
+    content: ",";
+    display: inline;
+    font-size: 11px;
+    margin: 0 2px;
+    line-height: 16px;
+}
+
+.footer-text-links a:last-of-type::after {
+    content: "";
+}
+
+.improve{
+    font-size: 19px !important;
+    font-weight: 600 !important;
+    color: #ffeb3b !important;
+}
 
 
 
@@ -538,6 +579,10 @@ footer{
 
 .align-footer{
     padding: 55px 50px 50px;
+}
+
+.footer-text-links{
+    display: inline;
 }
 }
 
