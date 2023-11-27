@@ -342,6 +342,36 @@ footer{
     background-size: 100%;
 }
 
+.other-countries{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.other-countries a{
+    display: inline-block;
+    text-decoration: none;
+}
+
+.other-countries a img{
+    max-width: 40px;
+    display: block;
+}
+
+.footer-socials{
+    margin-top: 20px;
+}
+
+.footer-socials a{
+    margin-right: 5px;
+    text-decoration: none;
+}
+
+.footer-socials a svg{
+    margin-top: -7px;
+}
 
 
 
