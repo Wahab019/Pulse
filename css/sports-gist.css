@@ -21,7 +21,47 @@ a{
     text-decoration: none;
 }
 
+.page-header{
+    background: #6d1310;
+    padding: 30px 0;
+}
 
+.home svg{
+    height: 14px;
+    width: 14px;
+    margin-bottom: -2px;
+}
+
+.home-title{
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 700;
+    display: inline;
+    margin-right: 5px;
+    text-transform: uppercase;
+    color: #979ea4;
+}
+
+.home-title::before{
+    content: "\00BB";
+    display: inline-block;
+    margin-right: 7px;
+    color: #dadada;
+}
+
+.category-title{
+    display: block;
+    color: #fff;
+    font-size: 30px;
+    line-height: 33px;
+    margin-bottom: 0;
+    font-weight: 700;
+}
+
+.section-layout{
+    background-image: linear-gradient(270deg, #f6f8fa, #faf6f8);
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+}
 
 
 
@@ -154,6 +194,12 @@ footer{
 /* 768 */
 
 @media (min-width: 768px){
+
+.category-title {
+    font-size: 36px;
+    line-height: 40px;
+}
+
 .align-footer{
     padding: 55px 50px 50px;
 }
