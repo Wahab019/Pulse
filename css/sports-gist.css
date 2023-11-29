@@ -200,6 +200,10 @@ footer{
     line-height: 40px;
 }
 
+.section-layout{
+    padding: 30px 0;
+}
+
 .align-footer{
     padding: 55px 50px 50px;
 }
