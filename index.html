@@ -16,6 +16,7 @@
     <header></header>
 
     <main>
+      <!-- first news section -->
       <div class="main__top">
         <div class="position-relative">
           <div class="container">
@@ -158,7 +159,8 @@
         </div>
       </div>
 
-      <div class="teams-margin"></div>
+      <!-- banner -->
+      <div class="banner-margin"></div>
 
       <div class="banner">
         <div class="banner-inner">
@@ -246,6 +248,169 @@
           </div>
         </div>
       </div>
+
+      <div class="banner-margin"></div>
+
+      <!-- second news section -->
+      <div class="main__middle">
+        <div class="container">
+          <div class="row align-items-start">
+            <div class="col-12 col-xl-9 main-content">
+              <style>
+                .news-box.d-flex.flex-wrap.justify-content-between.flex-four
+                  .lead-news-box {
+                  max-width: 100%;
+                  margin: 0;
+                }
+
+                .news-box.d-flex.flex-wrap.justify-content-between.flex-four {
+                  flex-direction: column;
+                }
+
+                @media (min-width: 769px) {
+                  .news-box.d-flex.flex-wrap.justify-content-between.flex-four {
+                    flex-direction: column-reverse;
+                  }
+                }
+
+                .news-box.d-flex.flex-wrap.justify-content-between.flex-four
+                  .other-news-box {
+                  max-width: 100%;
+                  flex-direction: row;
+                }
+
+                .news-box.d-flex.flex-wrap.justify-content-between.flex-four
+                  .other-news-box
+                  .news-item {
+                  margin-inline: 10px;
+                }
+              </style>
+              <section>
+                <div class="both-news d-flex flex-wrap justify-content-between">
+                  <div class="main-news">
+                    <article class="main-news-item">
+                      <a class="main-news-image" href="#">
+                        <img
+                          width="600"
+                          height="450"
+                          src="./assets/homeimg1.png"
+                          alt=""
+                        />
+                      </a>
+                      <div class="main-news-content">
+                        <div class="category-wrap">
+                          <a href="#" class="category">FOOTBALL</a>
+                        </div>
+                        <h2 class="main-news-title">
+                          <a href="#"
+                            >Osimhen returns with winning assist to nullify
+                            Lookman's goal in Napoli's win over Atalanta</a
+                          >
+                        </h2>
+                      </div>
+                    </article>
+                    <article class="main-news-item">
+                      <a class="main-news-image" href="#">
+                        <img
+                          width="600"
+                          height="450"
+                          src="./assets/homeimg2.png"
+                          alt=""
+                        />
+                      </a>
+                      <div class="main-news-content">
+                        <div class="category-wrap">
+                          <a href="#" class="category">FOOTBALL</a>
+                        </div>
+                        <h2 class="main-news-title">
+                          <a href="#"
+                            >Man City boss Pep Guardiola happy with liverpool
+                            performance despite draw</a
+                          >
+                        </h2>
+                      </div>
+                    </article>
+                  </div>
+                  <div class="other-news">
+                    <article class="side-news-item">
+                      <a class="side-news-image" href="#">
+                        <img src="./assets/homeimg3.png" alt="" />
+                      </a>
+                      <div class="side-news-content">
+                        <div class="side-category-wrap">
+                          <a href="#" class="side-category">TUNDE YOUNG</a>
+                        </div>
+                        <h2 class="side-news-title">
+                          <a href="#"
+                            >Newcastle 4-1 Chelsea: 3 Reasons the incosistent
+                            Blues were embarrassed</a
+                          >
+                        </h2>
+                      </div>
+                    </article>
+                    <article class="side-news-item">
+                      <a class="side-news-image" href="#">
+                        <img src="./assets/homeimg4.png" alt="" />
+                      </a>
+                      <div class="side-news-content">
+                        <div class="side-category-wrap">
+                          <a href="#" class="side-category">FOOTBALL</a>
+                        </div>
+                        <h2 class="side-news-title">
+                          <a href="#"
+                            >I don't know — Arsenal's Kai Havertz says he is
+                            clueless about his best position</a
+                          >
+                        </h2>
+                      </div>
+                    </article>
+                    <article class="side-news-item">
+                      <a class="side-news-image" href="#">
+                        <img src="./assets/homeimg5.jpg" alt="" />
+                      </a>
+                      <div class="side-news-content">
+                        <div class="side-category-wrap">
+                          <a href="#" class="side-category">SPORTS GIST</a>
+                        </div>
+                        <h2 class="side-news-title">
+                          <a href="#"
+                            >Odion Ighalo scores hat-trick for Al Wehda: Super
+                            Eagles star on fire in Saudi Arabia</a
+                          >
+                        </h2>
+                      </div>
+                    </article>
+                  </div>
+                </div>
+              </section>
+            </div>
+
+            <div class="col-12 col-xl-3 side-bar"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="page-margin"></div>
+
+      <section class="league__table">
+        <div class="container">
+          <div class="row align-items-start">
+            <div class="col-12 col-xl-9 main-content">
+              <div class="main-table">
+
+                <div class="table-header">
+                  <h3>Championships</h3>
+                </div>
+
+                <div></div>
+
+              </div>
+            </div>
+
+            <div class="col-12 col-xl-3"></div>
+          </div>
+        </div>
+      </section>
     </main>
 
     <footer>
@@ -360,32 +525,40 @@
           </div>
           <div class="footer-text">
             <p class="footer-text-links">
-                <a href="#">Football</a>
-                <a href="#">Sports</a>
-                <a href="#">BET</a>
-                <a href="#">LiveScore</a>
-                <a href="#">Newsfeed</a>
-                <a href="#">Pulse Sports 30</a>
+              <a href="#">Football</a>
+              <a href="#">Sports</a>
+              <a href="#">BET</a>
+              <a href="#">LiveScore</a>
+              <a href="#">Newsfeed</a>
+              <a href="#">Pulse Sports 30</a>
             </p>
           </div>
           <div class="footer-text">
             <p class="improve">
-                How can we improve the website? Tell us <a style="color: #ffeb3b;text-decoration: underline;" href="#">here</a>
+              How can we improve the website? Tell us
+              <a style="color: #ffeb3b; text-decoration: underline" href="#"
+                >here</a
+              >
             </p>
           </div>
           <div class="footer-text">
             <p class="footer-text-links">
-                <a href="#">About us</a>
-                <a href="#">Terms of use</a>
-                <a href="#">Privacy policy</a>
+              <a href="#">About us</a>
+              <a href="#">Terms of use</a>
+              <a href="#">Privacy policy</a>
             </p>
           </div>
           <div class="footer-text">
             <p>Copyright © 2023 - Pulse.ng</p>
             <p>
-                <a class="sportal" href="#">
-                    <img width="250" height="58" src="./assets/footerimg5.svg" alt="">
-                </a>
+              <a class="sportal" href="#">
+                <img
+                  width="250"
+                  height="58"
+                  src="./assets/footerimg5.svg"
+                  alt=""
+                />
+              </a>
             </p>
           </div>
         </div>
