@@ -162,6 +162,19 @@ a{
     margin-bottom: 20px;
 }
 
+.top-stories{
+   background-image: linear-gradient(270deg, #f6f8fa, #faf6f8);
+    margin-top: 30px; 
+}
+
+.top-stories-list h2{
+    text-align: center;
+    font-weight: 800;
+    font-size: 32px;
+}
+
+
+
 
 
 
@@ -323,17 +336,23 @@ footer{
     margin-bottom: 24px;
 }
 
+.article-subtitle{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.top-stories-list{
+    background-image: linear-gradient(270deg, #f6f8fa, #faf6f8);
+    box-shadow: 0 1px 0 rgba(0, 0, 0, .1);
+    padding: 30px 0;
+}
+
 .align-footer{
     padding: 55px 50px 50px;
 }
 
 .footer-text-links{
     display: inline;
-}
-
-.article-subtitle{
-    font-size: 2rem;
-    margin-bottom: 2rem;
 }
 }
 
