@@ -21,8 +21,105 @@ a{
     text-decoration: none;
 }
 
+.section-layout{
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
 
+.main-content{
+    margin-top: 36px;
+}
 
+.news-header{
+    display: flex;
+    flex-direction: column;
+    padding: 0 5px;
+}
+
+.header-image{
+    margin: 0 -15px 16px;
+    position: relative;
+    display: block;
+    transition: 0.2s linear;
+}
+
+.header-image img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.header-image::after{
+    content: "";
+    display: block;
+    padding-top: 66.66%;
+}
+
+.image-description{
+    position: absolute;
+    bottom: 0;
+    padding: 10px 15px;
+    background: #a22721c2;
+    color: #fff;
+    width: 100%;
+}
+
+.header-title{
+    align-items: center;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    white-space: nowrap;
+    overflow: auto hidden;
+}
+
+.header-title a{
+    color: #A52822;
+    text-decoration: none;
+}
+
+.header-title span{
+    color: #595959;
+}
+
+.header-title a, .header-title span{
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 700;
+    display: inline;
+    margin-right: 5px;
+    text-transform: uppercase;
+}
+
+.header-title span::before{
+    content: "\00BB";
+    display: inline-block;
+    margin-right: 7px;
+    color: #A52822;
+}
+
+.header-title svg{
+    height: 14px;
+    width: 14px;
+    margin-bottom: -2px;
+}
+
+.football-link::before{
+    content: "\00BB";
+    display: inline-block;
+    margin-right: 7px;
+    color: #A52822;
+}
+
+.header-sub-title{
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: -0.2px;
+}
 
 
 
@@ -154,11 +251,50 @@ footer{
 /* 768 */
 
 @media (min-width: 768px){
+
+.news-header{
+    padding: 0;
+}
+
+.header-image{
+    order: 3;
+    margin: 0 0 35px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.header-sub-title{
+    font-size: 34px;
+    line-height: 38px;
+    letter-spacing: -0.3px;
+    margin-bottom: 30px;
+}
+
 .align-footer{
     padding: 55px 50px 50px;
 }
 
 .footer-text-links{
     display: inline;
+}
+}
+
+/* 1024 */
+
+@media (min-width: 1024px){
+.header-title{
+    display: inline-block !important;
+    white-space: normal !important;
+}
+}
+
+/* 1260 */
+
+@media (min-width: 1260px){
+.main-content {
+    flex: 0 0 calc(100% - 320px) !important;
+    width: calc(100% - 320px) !important;
+    max-width: calc(100% - 320px);
+    padding-left: 40px;
 }
 }
