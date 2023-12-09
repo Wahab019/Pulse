@@ -742,3 +742,140 @@ footer{
     width: calc(100% / 4 - 45px / 4); 
 }
 }
+
+/* ==========================================  Navigation Start ========================================== */
+
+.navbar-brand{
+    display: block;
+    width: 102px;
+    height: 56px;
+}
+
+.navbar-brand::after{
+    background: url(../assets/header-ng.svg) no-repeat;
+    background-size: 100%;
+    content: '';
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translate(100%, -50%);
+    display: inline-block;
+    width: 30px;
+    height: 20px;
+}
+
+.logo-mobile img{
+    position: absolute;
+    z-index: 2003;
+    max-width: 200px;
+}
+
+.logo-desktop{
+    display: none;
+}
+
+
+.navBar-container{
+    background-image: linear-gradient(90deg, #601512 0, #A52822 100%);
+}
+.navbar-container .navBar-item .navBar-link{
+    color: #fff;
+}
+.mobileMenuToggler button{
+    border: none;
+}
+
+.navbar-toggler{
+    color: white !important;
+    font-weight: 700;
+}
+
+.pulse-logo-nav{
+    width: 50px !important;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+        font-size: 14px !important;
+        color: white !important;
+        font-weight: 600;
+        text-transform: uppercase;
+       
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link:hover {
+        background-color: #A52822 !important;
+    }
+
+    .dropdown-item:hover{
+        font-weight: 700;
+    }
+
+@media (min-width: 768px){
+.navbar-brand {
+    width: 101px;
+    height: 55px;
+}
+
+.logo-mobile{
+    display: none;
+}
+
+.logo-desktop{
+    display: block;
+}
+}
+
+@media (max-width: 992px) {
+    .mobileMenuToggler{
+        position: absolute;
+        top: 13px;
+        right: 0;
+        color: #fff;
+        display: flex ;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        font-size: 14px !important;
+        color: black !important;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+
+    
+  .mobileMenu {
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+    position: fixed;
+    top: 0px;
+    bottom: 0;
+    margin: auto;
+    right: 0;
+    -webkit-transition: all ease 0.25s;
+    transition: all ease 0.25s;
+  }
+  .mobileMenu.open {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+            background-color: #fff;
+            max-width: 320px;
+  }
+  .mobileMenu .navbar-nav {
+    overflow-y: auto;
+  }
+  .overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+  }
+  .overlay.open {
+    display: block;
+    z-index: 1029;
+  }
+}
