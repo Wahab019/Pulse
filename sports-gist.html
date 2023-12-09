@@ -14,12 +14,141 @@
     <title>Pulse</title>
   </head>
   <body>
-    <header>
-      <a href="./index.html">home</a>
-      <a href="./policy.html">policy</a>
-      <a href="./sports-gist.html">sports gist</a>
-      <a href="./stories.html">stories</a>
-    </header>
+     <nav
+      class="navbar navbar-expand-lg justify-content-sm-start fixed-top navBar-container"
+    >
+      <div class="container-fluid">
+        <div class="position-relative">
+          <a
+            class="navbar-brand order-1 order-lg-0 ml-lg-0 ml-2 mr-auto"
+            href="#"
+          >
+            <picture class="logo-mobile">
+              <img
+                src="./assets/header-logo.svg"
+                alt="Sportal Logo"
+                width="85"
+                height="48"
+              />
+            </picture>
+            <picture class="logo-desktop">
+              <img
+                src="./assets/header-logo.svg"
+                alt="Sportal Logo"
+                width="92"
+                height="52"
+              />
+            </picture>
+          </a>
+        </div>
+
+        <div class="mobileMenuToggler">
+          <button class="navbar-toggler align-self-start" type="button">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="icon icon-tabler icon-tabler-menu-2"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              stroke-width="2"
+              stroke="currentColor"
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path d="M4 6l16 0" />
+              <path d="M4 12l16 0" />
+              <path d="M4 18l16 0" />
+            </svg>
+          </button>
+        </div>
+
+        <div
+          class="collapse navbar-collapse p-3 p-lg-0 mt-5 mt-lg-0 d-flex flex-column flex-lg-row flex-xl-row justify-content-lg-end mobileMenu"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav align-self-stretch">
+            <li class="nav-item navBar-item active">
+              <a
+                class="text-light text-uppercase fs-1 nav-link navBar-link"
+                href="#"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item navBar-item active">
+              <a class="nav-link navBar-link" href="#">Pulse Sports 30 </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Football
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Nigerian</a>
+                <a class="dropdown-item" href="#">International</a>
+                <a class="dropdown-item" href="#">International Clubs</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">More Leagues</a>
+              </div>
+            </li>
+            <li class="nav-item navBar-item active">
+              <a class="nav-link navBar-link" href="#">Basketball </a>
+            </li>
+            <li class="nav-item navBar-item active">
+              <a class="nav-link navBar-link" href="#">Athletics </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                More Sports
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Boxing</a>
+                <a class="dropdown-item" href="#">Esports</a>
+                <a class="dropdown-item" href="#">Sports Lifestyle</a>
+                <a class="dropdown-item" href="#">MMA and Combat Sports</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Other Sports</a>
+              </div>
+            </li>
+            <li class="nav-item navBar-item active">
+              <a class="nav-link navBar-link" href="#">Betting </a>
+            </li>
+            <li class="nav-item navBar-item active">
+              <a class="nav-link navBar-link" href="#">Video </a>
+            </li>
+          </ul>
+          <!-- <form class="form-inline my-2 my-lg-0 align-self-stretch">
+            <input
+              class="form-control mr-sm-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+              Search
+            </button>
+          </form> -->
+        </div>
+      </div>
+    </nav>
+
+    <!-- <div class="overlay"></div> -->
 
     <main>
       <section class="page-header">
